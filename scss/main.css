@@ -16,6 +16,25 @@ header {
     padding: 10px; }
     header .navbar-form .container .form-group {
       float: right; }
+      header .navbar-form .container .form-group .form-control {
+        width: 210px; }
+    header .navbar-form .container .search-dropdown {
+      position: absolute;
+      background-color: white;
+      margin-bottom: 10px;
+      color: black;
+      list-style: none;
+      display: none;
+      z-index: 5;
+      margin-right: -4px;
+      padding-inline-start: 0px; }
+      header .navbar-form .container .search-dropdown li {
+        border-bottom: 1px solid black;
+        padding: 10px 50px 5px 0; }
+
+.popular {
+  text-align: center;
+  font-size: 20px; }
 
 #movie a.link-details {
   border: 1px solid gray;
@@ -76,9 +95,12 @@ header {
   #list h2 {
     margin-right: 20px; }
 
-#back-to-top {
-  border-radius: 1px solid black;
+a#back-to-top {
   float: right;
-  margin-right: 200px; }
+  margin-right: 120px;
+  display: none; }
+
+.mystyle {
+  display: initial; }
 
 /*# sourceMappingURL=main.css.map */
