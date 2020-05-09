@@ -35,7 +35,8 @@ header {
 .popular {
   text-align: center;
   font-size: 50px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-top: 20px; }
 
 #movie a.link-details {
   border: 1px solid gray;
