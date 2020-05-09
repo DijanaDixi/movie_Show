@@ -1,0 +1,74 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=p, initial-scale=1.0" />
+    <title>Info Page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Search -->
+      <form class="navbar-form" role="search">
+        <div class="container">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search" id="search"/>
+            <!-- <ul class="search-dropdown"></ul> -->
+          </div>
+        </div>
+      </form>
+         <!-- Search End -->
+    </header>
+      <!-- Header -->
+ 
+    <!-- Singl movie details -->
+    <div class="container">
+      <div id="movieDetails" class="row">
+
+        <!-- Template -->
+        <script id="template2" type="template">
+          <a href="index.html" class="left"><svg class="bi bi-chevron-left" width="6em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 010 .708L5.707 8l5.647 5.646a.5.5 0 01-.708.708l-6-6a.5.5 0 010-.708l6-6a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+          </svg></a>
+          <h1>{{movie}}</h1>
+            <div class="col-xs-6 col-md-4 ">
+           
+              <a href="#" ><img src="{{image}}" alt="" class="img-responsive img-thumbnail"/></a>
+             
+              <a class="link-details" href="#">{{movie}}</a>
+              <h3>Show Details</h3>
+              <p class="about">{{about}}</p>
+            </div>
+          </script>
+        <!-- Template End-->
+
+          <!-- list seasons and casts -->
+          <div id="list" >
+        <!-- Placeholder CAST -->
+          <div id="list-season">
+            <!-- Placeholder SEASONS -->
+          </div>
+          <h2>Casts</h2>
+          </div>
+             <!-- lists seasons and casts End-->
+           
+      </div>
+     
+    </div>
+    <a id="back-to-top"><svg class="bi bi-chevron-up" width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L8 5.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z" clip-rule="evenodd"/>
+    </svg></a>
+
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+      getMovie();
+    </script>
+  </body>
+</html>

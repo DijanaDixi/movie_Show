@@ -1,0 +1,35 @@
+#movie {
+    a.link-details {
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        box-shadow: 10px #888888;
+
+
+
+        &:hover {
+            background-color: gainsboro;
+            color: white
+        }
+    }
+
+    a {
+        img {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            transition: transform .2s;
+
+            &:hover {
+                transform: scale(1.2);
+
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Movie</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <!-- Search -->
+
+      <form class="navbar-form" role="search">
+        <div class="container">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search" id="search"/>
+            <ul class="search-dropdown">
+            <!-- Placeholder list movies -->
+            </ul>
+          </div>
+        </div>
+      </form>
+    </header>
+    <!-- Search End -->
+
+    <!-- Movie list -->
+
+    <div class="movie-list">
+      <div class="container">
+        <div id="movie" class="row">
+          <!-- Template -->
+          <!-- movieSelected id -->
+          <script id="template" type="template"> 
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" onclick="movieSelected({{id}})" >
+
+              <a href="#" ><img src="{{image}}" alt="" class="img-responsive img-thumbnail"/></a>
+             
+              <a class="link-details" onclick="movieSelected({{id}})" href="#">{{movie}}</a>
+              </div>
+          </script>
+          <!-- Template End -->
+        
+      
+        </div>
+      </div>
+    </div>
+    <!-- Back-to-top -->
+    <a href="#" id="back-to-top"><svg class="bi bi-chevron-up " width="3em" height="3em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L8 5.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z" clip-rule="evenodd"/>
+    </svg></a>
+    <!-- Movie list End-->
+
+   
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+body {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0; }
+
+a, a:hover, a:focus, a:visited {
+  text-decoration: none;
+  outline: none; }
+
+header {
+  background-color: black; }
+  header .navbar-form {
+    padding: 10px; }
+    header .navbar-form .container .form-group {
+      float: right; }
+      header .navbar-form .container .form-group .form-control {
+        width: 210px; }
+    header .navbar-form .container .search-dropdown {
+      position: absolute;
+      background-color: white;
+      margin-bottom: 10px;
+      color: black;
+      list-style: none;
+      display: none;
+      z-index: 5;
+      margin-right: -4px;
+      padding-inline-start: 0px; }
+      header .navbar-form .container .search-dropdown li {
+        border-bottom: 1px solid black;
+        padding: 10px 50px 5px 0; }
+
+#movie a.link-details {
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: 10px #888888; }
+  #movie a.link-details:hover {
+    background-color: gainsboro;
+    color: white; }
+#movie a img {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  transition: transform .2s; }
+  #movie a img:hover {
+    transform: scale(1.2); }
+
+#movieDetails {
+  display: inline-block;
+  margin-right: 30px; }
+  #movieDetails a.link-details {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 10px #888888; }
+    #movieDetails a.link-details:hover {
+      background-color: gainsboro;
+      color: white; }
+  #movieDetails a img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: transform .2s; }
+  #movieDetails h1 {
+    width: 100%;
+    text-align: center; }
+  #movieDetails h3 {
+    margin-top: 15px; }
+  #movieDetails #season {
+    display: inline-block;
+    margin-top: 20px; }
+
+#list {
+  float: left;
+  margin-top: 32px;
+  margin-left: 20px; }
+  #list h2 {
+    margin-right: 20px; }
+
+a#back-to-top {
+  float: right;
+  margin-right: 120px;
+  display: none; }
+
+.mystyle {
+  display: initial; }
+
+/*# sourceMappingURL=main.css.map */

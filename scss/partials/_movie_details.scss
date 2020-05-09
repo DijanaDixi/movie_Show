@@ -1,0 +1,77 @@
+     #movieDetails {
+         //  text-align: center;
+         display: inline-block;
+         margin-right: 30px;
+        
+
+         a.link-details {
+             border: 1px solid gray;
+             padding: 10px;
+             border-radius: 5px;
+             display: inline-block;
+             width: 100%;
+             text-align: center;
+             text-decoration: none;
+             font-size: 20px;
+             box-shadow: 10px #888888;
+
+
+             &:hover {
+                 background-color: gainsboro;
+                 color: white
+             }
+         }
+
+         a {
+
+             img {
+                 width: 100%;
+                 margin-bottom: 10px;
+                 margin-top: 10px;
+                 transition: transform .2s;
+
+             }
+         }
+
+         h1 {
+             width: 100%;
+             text-align: center;
+
+         }
+
+
+
+         h3 {
+
+             margin-top: 15px;
+         }
+
+         #season {
+             display: inline-block;
+             margin-top: 20px;
+
+         }
+     }
+
+     #list {
+         float: left;
+         margin-top: 32px;
+         margin-left: 20px;
+
+         h2 {
+             margin-right: 20px;
+         }
+
+     }
+
+     a#back-to-top {
+
+         float: right;
+         margin-right: 120px;
+         display: none;
+
+     }
+
+     .mystyle {
+         display: initial;
+     }

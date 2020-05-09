@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+body {
+  font-family: 'Permanent Marker', cursive; }
+
+header {
+  background-color: black; }
+  header .navbar-form {
+    padding: 10px; }
+    header .navbar-form .container .form-group {
+      float: right; }
+
+#movieDetails {
+  text-align: center; }
+  #movieDetails a.link-details {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 10px #888888;
+    display: inline-block; }
+    #movieDetails a.link-details:hover {
+      background-color: gainsboro;
+      color: white; }
+  #movieDetails a img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: transform .2s; }
+  #movieDetails h1 {
+    width: 100%; }
+
+/*# sourceMappingURL=movie_details.css.map */

@@ -1,0 +1,41 @@
+header {
+    background-color: black;
+
+    .navbar-form {
+        padding: 10px;
+
+        .container {
+            .form-group {
+                float: right;
+
+
+                .form-control {
+                    width: 210px;
+                }
+
+            }
+
+            .search-dropdown {
+                position: absolute;
+                background-color: white;
+                margin-bottom: 10px;
+                color: black;
+                list-style: none;
+                display: none;
+                z-index: 5;
+                margin-right: -4px;
+
+                padding-inline-start: 0px;
+
+                li {
+                    border-bottom: 1px solid black;
+                    padding: 10px 50px 5px 0;
+
+
+                }
+
+            }
+        }
+
+    }
+}
