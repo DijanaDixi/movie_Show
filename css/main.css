@@ -110,4 +110,8 @@ a#back-to-top {
 .mystyle {
   display: initial; }
 
+@media (max-width: 768px) {
+  a#back-to-top {
+    margin-right: 13px; } }
+
 /*# sourceMappingURL=main.css.map */
