@@ -60,6 +60,11 @@ header {
   #movie a img:hover {
     transform: scale(1.2); }
 
+@media (max-width: 768px) {
+  #movie a img {
+    transition: none; }
+    #movie a img:hover {
+      transform: none; } }
 #movieDetails {
   display: inline-block;
   margin-right: 30px; }

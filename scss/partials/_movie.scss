@@ -33,3 +33,17 @@
         }
     }
 }
+
+@media(max-width:768px) {
+    #movie {
+        a {
+            img {
+                transition: none;
+                &:hover {
+                    transform: none;
+
+                }
+            }
+        }
+    }
+}
