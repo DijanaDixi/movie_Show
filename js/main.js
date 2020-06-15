@@ -99,7 +99,7 @@ function getMovie() {
 
 // display seasons and cast(dom)-movie details
 function displayCastAndSeasons(el) {
-  console.log(el);
+  // console.log(el);
   var cast = document.createElement("ul");
   var season = document.createElement("ul");
   var list = document.getElementById("list");
